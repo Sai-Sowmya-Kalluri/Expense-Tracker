@@ -1,16 +1,124 @@
-# React + Vite
+# Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Expense Tracker is a Full-Stack Web Application that helps users manage their monthly income and daily expenses.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Users can:
 
-## React Compiler
+- Create an account
+- Login securely
+- Store monthly salary
+- Add expenses by category
+- View total expenses
+- Track balance amount
+- Generate monthly reports
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### User Authentication
+
+- Signup
+- Login
+- User-specific data
+
+### Income Tracking
+
+- Store monthly salary
+- Calculate remaining balance
+
+### Expense Management
+
+- Add expenses
+- Categorize expenses
+- Store expense history
+
+### Dashboard
+
+- Total Income
+- Total Expense
+- Remaining Balance
+
+### Reports
+
+- Monthly Summary
+- Expense Analysis
+
+---
+
+## Technology Stack
+
+### Frontend
+
+- React.js
+- HTML
+- CSS
+- JavaScript
+- Axios
+- Vite
+
+### Backend
+
+- FastAPI
+- Python
+- Uvicorn
+
+### Database
+
+- SQLite
+- SQLAlchemy
+
+### Version Control
+
+- Git
+- GitHub
+
+---
+
+## Project Structure
+
+Expense Tracker
+
+├── backend
+
+│ ├── main.py
+
+│ ├── models.py
+
+│ ├── schemas.py
+
+│ └── database.py
+
+│
+
+├── expensetracker
+
+│ ├── src
+
+│ ├── public
+
+│ └── package.json
+
+│
+
+└── README.md
+
+---
+
+## Future Enhancements
+
+- Pie Chart Visualization
+- Category-wise Analytics
+- Expense Editing
+- Expense Deletion
+- JWT Authentication
+- PostgreSQL Integration
+- Cloud Deployment
+
+---
+
+## Author
+
+Sowmya Kallurigit add README.md
